@@ -1,0 +1,20 @@
+{
+  "PipelineName": "FrontBokehSnapshot",
+  "NodesList": {
+    "Node": []
+  },
+  "PortLinkages": {
+    "Link": [
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "SourceBuffer"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance": "SinkBuffer"
+        }
+      }
+    ]
+  }
+}
